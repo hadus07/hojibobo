@@ -1,0 +1,156 @@
+body {
+	-webkit-perspective: 1000px;
+	        perspective: 1000px;
+}
+#notif {
+	display: none;
+}
+/*Social*/
+#social div{
+	padding: 20px 0px;
+}
+#social img {
+	width: 50px;
+}
+/*Carousel*/
+#carousel {
+	height: 200px;
+	margin-top: 55px;
+}
+#carcont {
+	width: 100%;
+}
+#categ h1 {
+	font-size: 130%;
+}
+/*Navigation Bar*/
+label.material-icons {
+	display: block;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+	font-size: 3em;
+}
+#menu {
+	display: none;
+}
+#menu:checked + #nav {
+	display: block;
+}
+#nav {
+	display: none;
+	-webkit-transform-origin: top;
+	        transform-origin: top;
+	-webkit-animation: arqon 0.5s ease-in-out;
+	        animation: arqon 0.5s ease-in-out;
+	border-bottom: 10px solid rgba(255, 181, 77, 0.5);
+}
+@-webkit-keyframes arqon {
+	from {opacity: 0;}
+}
+@keyframes arqon {
+	from {opacity: 0;}
+}
+#nav::before {
+	content: "";
+	display: block;
+	padding: 30px;
+}
+#navul > li {
+	padding: 15px;
+}
+.subul li {
+	padding: 10px;
+}
+.subul {
+	display: none;
+}
+#navul>li:hover .subul {
+	display: block;
+	-webkit-box-shadow: 1px 1px 10px 1px black;
+	        box-shadow: 1px 1px 10px 1px black;
+	background-color: rgba(255, 181, 77, 0.3);
+	margin-top: 20px;
+}
+#navul>li:hover {
+	background-color: rgba(255, 181, 77, 0.3);
+	-webkit-box-shadow: 1px 1px 10px 1px black;
+	        box-shadow: 1px 1px 10px 1px black;
+}
+.subul li:active {
+	background: black;
+}
+/*Image Slider*/
+#slider {
+	height: 50%;
+	z-index: 3;
+}
+#slider > h1 {
+	font-size: 2em;
+}
+#logo {
+	width: 140px;
+	bottom: -55px;
+	margin-left: -70px;
+}
+#slider span {
+	display: none;
+}
+/*Main*/
+.section {
+	max-width: 500px;
+	margin: 0px auto;
+}
+.section img {
+	width: 100%;
+	height: 330px;
+}
+.section ul {
+	width: 100%;
+	height: 330px;
+}
+.section li:last-child {
+	display: none;
+}
+/*Info Box*/
+#infobox {
+	position: relative;
+}
+#infobox img {
+	width: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+#infobox div {
+	margin: auto;
+}
+#infobox span {
+	font-size: 3em;
+}
+/*Footer*/
+#footer {
+	-webkit-perspective: 1000px;
+	        perspective: 1000px;
+}
+#footer li:first-child {
+	padding: 10px;
+	display: block;
+	font-size: 20px;
+}
+#footer ul {
+	margin-bottom: 30px;
+}
+#footer li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+#footer p {
+	position: relative;
+	bottom: 0px;
+}
+/*Image show*/
+#imageshowcont {
+	display: none;
+}
